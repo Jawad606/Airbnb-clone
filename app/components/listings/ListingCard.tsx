@@ -25,7 +25,7 @@ const ListingCard: React.FC<ListiingCardProps> = ({
   onAction,
   disabled,
   actionLabel,
-  actionId,
+  actionId = "",
   currentUser,
 }) => {
   const router = useRouter();

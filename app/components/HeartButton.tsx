@@ -1,11 +1,11 @@
 "use client";
 
-import { AiOutlineHeart,AiFillHeart } from "react-icons/ai";
+import { AiOutlineHeart, AiFillHeart } from "react-icons/ai";
 import { SafeUser } from "../types";
 import useFavorite from "../hooks/useFavourite";
 interface HeartButtonProps {
   listingId: string;
-  currentUser: SafeUser | null ;
+  currentUser?: SafeUser | null;
 }
 const HeartButton: React.FC<HeartButtonProps> = ({
   listingId,
